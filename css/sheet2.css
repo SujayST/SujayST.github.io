@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Signika&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+html,body,h1{
+    height: 100%;
+    margin: 0;
+}
+section{
+    padding: 0;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    align-content: center;
+}
+.navbar1{
+    position: fixed;
+    top: 0;
+    display: flex;
+    right:0px;
+    width: 100%;
+}
+nav{
+    
+   /* margin-left: 1.8vw;
+    margin-right: 1.88vw;*/
+
+    display: flex;
+    
+    width: 100vw;
+    background-color: rgba(0, 0, 0,.3); 
+}
+.layer{
+    margin: auto;
+    width: 95vw;
+    height: 100%;
+    top: -10px;
+    align-self: center;
+    /*border-bottom-left-radius: 1.8vw ;
+    border-bottom-right-radius: 1.8vw;*/
+    background-color: rgba(0, 0, 0,.7);
+}
+ul{
+    margin: 0;
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    right: 0;
+    vertical-align: middle;
+}
+li{
+   margin: auto;
+    display: flex;
+    height: 4vw;
+    width: 10vw;
+    border-radius: .3vw;
+    text-align: center;
+    vertical-align: middle;
+}
+li a {
+    display: block;
+    color: white;
+   margin: auto;
+    text-decoration: none;
+    text-align: center;
+    align-self: center; 
+    font-size: 1.2vw;  
+}
+
+
+li a:hover{
+    color: teal;
+    text-emphasis: none;
+    text-decoration: none;
+    font-size: 1.8vw;
+}
+#resume{
+    border: rgba(13,102,102,.9); 
+    border-style: solid;
+    border-radius: 8px; 
+    border-width: 2px; 
+    margin: .5vw; 
+}
+.name{
+    position: relative;
+    top: 40vh;
+    color: white;
+    font-family:'Acme', sans-serif;
+    left : 23vw;
+    letter-spacing: .5vw;
+    
+}
+.school{
+    position: absolute;
+    padding: 1vh;
+    padding-left: 60px;
+    color: white;
+    display: block;
+    width: 95vw;
+    bottom: 3.5vh;
+    margin: 0;
+    background-color: rgba(255, 105, 180,.6);
+}
+.lyr{
+    position: fixed;
+    right: 4vw;
+    top: 34vh;
+    bottom: 60vh;
+    border-radius: .3vw;
+    display:flex;
+    align-items: center;
+    
+}
+.lyr:hover{
+    background-color:  rgba(0, 0, 0,.3);
+    
+}
+.logo{ 
+   
+    height: 3vw; 
+    width: 3vw;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: .65;
+}
+
+.logo:hover{
+    height: 5vw;
+    width: 5vw;
+    opacity: 1;   
+}
+img{
+    width: 100% ;
+    height: 100%;
+}

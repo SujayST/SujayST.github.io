@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Signika&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Suez+One&display=swap")
+
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
+html,body,h1{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+section{
+    padding: 0;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    height: 100vh;
+    align-content: center;
+}
+.layer{
+    margin: auto;
+    width: 95vw;
+    height: 100%;
+    top: -10px;
+    align-self: center;
+    background-color: rgba(0, 0, 0,.7);
+}
+
+/*NAVBAR*/
+.navbar1{
+    position: fixed;
+    top: 0;
+    display: flex;
+    right:0px;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 0.125rem #593a9f, 0 0.25rem 0.125rem rgba(0,0,0,.5);
+    box-shadow: 0 var(--space-1) var(--primary),0 var(--space-2) var(--space-1) var(--darken-3);
+}
+nav{
+    z-index: 100;
+    width: 100vw;
+    box-shadow: 0 0.125rem #593a9f, 0 0.25rem 0.125rem rgba(0,0,0,.5);
+    box-shadow: 0 var(--space-1) var(--primary),0 var(--space-2) var(--space-1) var(--darken-3);
+    display: flex;
+    background-color: rgba(0, 0, 0,.3); 
+}
+ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style-type: none;
+    right: 0;
+    padding: 0;
+}
+li{
+   margin: auto;
+    display: flex;
+    height: 4vw;
+    width: 10vw;
+}
+#home-link{
+    width: 8vw;
+}
+li a { 
+    color: white;
+   margin: auto;
+    font-size: 1.2vw;  
+}
+li a:hover{
+    color: teal;
+    text-decoration: none;
+    font-size: 1.8vw;
+}
+#resume{
+    border: rgba(13,102,102,.9); 
+    border-style: solid;
+    border-radius: 8px; 
+    border-width: 2px; 
+    margin: .5vw; 
+}
+.astc{
+    font-size: 2vw; 
+    color: white; 
+    font-family: 'Fira Mono';
+    margin-left: 2vw; 
+    padding: 1.2vw;
+}
+.nav-btn{
+    display: none;
+    position:fixed;
+    right: 5vh;
+}
+.navbar-toggle{
+    background-color: rgba(0, 0, 0,0);
+    border-style: none;
+    position: absolute;
+    right: 2vh;
+    padding-top: .5vh;
+    
+}
+.bar1,
+.bar2,
+.bar3{
+    width: 4vh;
+    height: .7vh;
+    margin: .5vh;
+    background: white;
+    transition: all 0.5s ease;
+}
+@media only screen and (max-width: 600px) {
+    ul {
+      display: none;
+    }
+    .astc {
+        font-size: 3.2vh;
+    }
+    .nav-btn{
+        display: contents;
+    }
+  }
+  
+/*HOME CONTENT*/
+.name-layer{
+    position: absolute;
+    top: 19.0vh;
+    left: 24vw;
+}
+.profile-img{
+    position: absolute;
+    top: 24.0vh;
+    padding: .8vh;
+    padding-left: 7vw;
+    background-color: rgba(255, 255, 255,.3);
+    border-top-right-radius: 15vh;
+    border-bottom-right-radius: 15vh;
+    transition: padding-left 2s; 
+    align-content: center;
+    display: flex;
+}
+#primg{
+    width: 20vh; 
+    border-radius: 10vh;
+    align-self: center ;
+    margin: auto;
+    transition: width 1s, border-radius 1s;
+}
+#primg:hover{
+  width: 28vh;
+    border-radius: 14vh;
+}
+
+
+.name{
+    display: flex;
+    color: white;
+    font-family:'Acme', sans-serif;
+    letter-spacing: .5vw;
+}
+.name h1{
+        font-size: 6vw;
+        margin: auto; 
+        padding-top: 3vh;
+        font-stretch: semi-expanded;      
+}
+.discription{
+    color: white;
+    font-family:'Acme', sans-serif;
+    letter-spacing: .3vw;
+    margin: 0;
+    margin-top: 3vh;
+}
+#dsc{
+    display: flex; 
+    margin-top:1.3vh; 
+    color: rgba(255, 255, 255,.7);
+}
+#dscl{
+    width: 4vw; 
+    margin-top:.5vh; 
+    margin-right: 0.5vw;
+}
+
+.trn1{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0s 1 normal forwards;
+                animation: appear 0.5s ease-out 0s 1 normal forwards;
+        margin-bottom: 2 rem;
+}
+.trn2{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.25s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.25s 1 normal forwards;
+        margin-bottom: 2 rem;
+}
+.trn3{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        margin-bottom: 2 rem;
+        color: #d1ced5;
+}
+.trn4{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.75s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.75s 1 normal forwards;
+        margin-bottom: 2 rem;
+        font-family: 'Product Sans Regular', 'Open Sans', sans-serif;
+        color: rgba(121, 207, 179, 0.8);
+        line-height: 5vh;
+        font-size: 3vh;
+        margin-top: 4vh;
+        letter-spacing: .1vw;
+}
+@-webkit-keyframes appear {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(2rem);
+              transform: translateY(2rem);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+  
+  @keyframes appear {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(2rem);
+              transform: translateY(2rem);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+  }
+.school1{
+    position: absolute;
+    display: flex;
+    width: 88vw;
+    bottom: 3.5vh;
+    margin: 0;
+}
+.school{
+    padding: 1vh;
+    padding-left: 22vw;
+    position: inline;
+    color: white;
+    display: block;
+    width: 80vw;
+    bottom: 3.5vh;
+    margin: 0;
+    background-color: rgba(255, 105, 180,.6);
+}
+.tri{
+    width: 0;
+    height: 0;
+    border-top: 12vh solid rgba(255, 105, 180,.6);
+    border-right: 8vw solid transparent;
+    
+  }
+
+/*SIDE-ICONS*/
+.lyr{
+    position: fixed;
+    right: 4vw;
+    top: 34vh;
+    bottom: 60vh;
+    border-radius: .3vw;
+    display:flex;
+    align-items: center;
+    
+}
+.lyr:hover{
+    background-color:  rgba(0, 0, 0,.3);
+    
+}
+.logo{ 
+   
+    height: 3vw; 
+    width: 3vw;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    opacity: .65;
+}
+.logo:hover{
+    height: 5vw;
+    width: 5vw;
+    opacity: 1;
+}
+img{
+    width: 100%;
+    height: 100%;
+}

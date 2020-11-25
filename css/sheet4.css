@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local("Product Sans Regular"), url("../assets/fonts/ProductSans-Regular.woff") format("woff");
+  }
+
+  /*projects*/
+#experience{
+    
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient();
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 135vh;
+}
+#wr-layer{
+    
+    width: 69vw;
+    height: 100%;
+    padding: 4%;
+}
+#work{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    margin-left:2%;
+    vertical-align: middle;
+}
+#work-title{
+    position: relative;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+#pink-block{
+    margin: 0;
+    background-color: palevioletred;
+    width: 1%;
+    height: 5vh;
+    position: inline;
+    float: left;
+}
+.work-text{
+    position: inline;
+    margin: 0;
+    margin-left: 5%;
+    position: relative;
+    float: left;
+}
+#work-t2{
+    position: block;
+    font-size: 1.2rem;
+    color: rgb(194, 190, 190) ;
+}
+#work-body{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 75%;
+    margin-left:2%;
+    vertical-align: middle;
+
+}
+.work-desc{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 20vh;
+    margin-top: 7vh;
+}
+.work-img{
+    height: 50%;
+    width: 4.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1.5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin: 22px;
+    border-color: white;
+    border-width: 20px;
+}
+
+.work-img-div{
+    position: inline;
+    float: left;
+}
+
+.trn31{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        margin-bottom: 1.5 rem;
+        color: #d1ced5;
+        font-family: 'Varela Round';
+        font-size: 1.5rem;
+        line-height: 6vh;
+        font-weight: 100;
+
+}
+.work-dur{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+    font-size: 1rem; 
+    color: white; 
+    font-family: 'Varela Round';
+    margin-top: 5px;
+    margin-left: 2px;
+}
+
+/*PROJECTS*/
+#projects{
+    height: 160vh;
+}
+#pr-layer{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    top: 0;
+    align-self: center;
+    width: 70%;
+    padding: 4%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+}
+#pr-body{
+    height: 92.6%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+}
+.pr-instance{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.pr-img{
+    width: 50%;
+    height: 100%;
+    background-color: hotpink;
+    float: left;
+}
+.pr-txt{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    float: left;
+    padding: 6%;
+    padding-right: 3%;
+}
+.pr-txt:hover{
+    background-color: black;
+}
+.trn311{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        color: #ffffff;
+        font-family: 'Varela Round';
+        font-size: 1.7rem;
+        font-weight: 100;
+        position: inline;
+}
+#pr-t3{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+    margin-top: 4.2%;
+    position: block;
+    font-size: 1rem;
+    color: rgb(175, 171, 171) ;
+}
+
+
+
+
+
+  .pr0{
+    margin: auto;
+    height: 40vh;
+    display: fixed;
+    bottom: 10;
+    width: 15vw;
+    background-color: rgba(43, 243, 176, 0.158);
+    align-content: center;
+    border-top-right-radius: 2vw;
+}
+.pr0:hover{
+    background-color: rgba(255, 255, 255, 0.897);
+}
+#pr11{
+    height: 4vh;
+    width: 15vw;
+    background-color: rgb(6, 150, 114);
+    transition: height 1.1s;
+    text-align: center;
+    overflow: hidden;
+}
+#pr1:hover ~ #pr11,#pr11:hover{
+    height: 15vh
+}
+#pr10{
+    position: absolute;
+    bottom: 10vh;
+    padding-left:3vw
+
+}
+#pr2:hover ~ #pr11,#pr11:hover{
+    height: 15vh
+}
+#pr20{
+    position: absolute;
+    bottom: 10vh;
+    left: 20vw;
+}
+#pr3:hover ~ #pr11,#pr11:hover{
+    height: 15vh
+}
+#pr30{
+    position: absolute;
+    bottom: 10vh;
+    left: 37vw;
+}
+#pr4:hover ~ #pr11,#pr11:hover{
+    height: 15vh
+}
+#pr40{
+    position: absolute;
+    bottom: 10vh;
+    left: 54vw;
+}
+#pr5:hover ~ #pr11,#pr11:hover{
+    height: 15vh
+}
+#pr50{
+    position: absolute;
+    bottom: 10vh;
+    left: 71vw;
+}
+/*logo1 is guithub*/
+.logo1{
+    position: relative;
+    padding: 2vh;
+    padding-top:0;
+}
+.logo1 img{
+    height: 50%;
+}
+.logo1:hover{
+    color: white;
+}
+/*project top logo*/
+.logo2{
+    height:8vh;
+    width: 5.5vw;
+    border: black solid 2px;
+    margin-top: 1vh;
+    align-self: center;
+    border-radius: 4vh;
+    margin-left: 4.5vw;
+}
+.logo3{
+    height: 7vh; 
+    width: 7vh; 
+    margin: .33vh;
+}

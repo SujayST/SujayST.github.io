@@ -33,11 +33,7 @@ section{
     background-color: rgba(0, 0, 0, 0.856);
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 /* NAVBAR */
 .navbar1{
     position: fixed;
@@ -133,11 +129,7 @@ li a:hover{
     }
   }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;    
-  }
-}
+
 
 /*HOME CONTENT*/
 .masthead {
@@ -287,11 +279,7 @@ body{
     margin-top: 3vh;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 
 /*About me*/
 a {

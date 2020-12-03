@@ -5,102 +5,362 @@
     font-weight: normal;
     src: local("Product Sans Regular"), url("../assets/fonts/ProductSans-Regular.woff") format("woff");
   }
-.pname{
-    position: absolute;
-    top: 13vh;
-    color: white;
-    padding-left: 3vw;
-    font-family: 'Product Sans Regular', 'Open Sans', sans-serif;
+
+  /*Work-experience*/  
+@media only screen and (max-width: 600px) {
+    #experience{
+        display: none;
+    }
 }
-.pr0{
-    margin: auto;
-    height: 40vh;
-    display: fixed;
-    bottom: 10;
-    width: 15vw;
-    background-color: rgba(43, 243, 176, 0.158);
-    align-content: center;
-    border-top-right-radius: 2vw;
+#experience{
+    
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient();
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 135vh;
 }
-.pr0:hover{
-    background-color: rgba(255, 255, 255, 0.897);
+#wr-layer{
+    background-color: #161616!important;
+    width: 69vw;
+    height: 100%;
+    padding: 4%;
 }
-#pr11{
-    height: 4vh;
-    width: 15vw;
-    background-color: rgb(6, 150, 114);
-    transition: height 1.1s;
-    text-align: center;
-    overflow: hidden;
+#work{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    margin-left:2%;
+    vertical-align: middle;
 }
-#pr1:hover ~ #pr11,#pr11:hover{
-    height: 15vh
-}
-#pr10{
-    position: absolute;
-    bottom: 10vh;
-    padding-left:3vh
+#work-title{
+    position: relative;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
 
 }
-#pr2:hover ~ #pr11,#pr11:hover{
-    height: 15vh
+#pink-block{
+    margin: 0;
+    background-color: palevioletred;
+    width: 1%;
+    height: 5vh;
+    position: inline;
+    float: left;
 }
-#pr20{
-    position: absolute;
-    bottom: 10vh;
-    left: 21vw;
-}
-#pr3:hover ~ #pr11,#pr11:hover{
-    height: 15vh
-}
-#pr30{
-    position: absolute;
-    bottom: 10vh;
-    left: 38vw;
-}
-#pr4:hover ~ #pr11,#pr11:hover{
-    height: 15vh
-}
-#pr40{
-    position: absolute;
-    bottom: 10vh;
-    left: 55vw;
-}
-#pr5:hover ~ #pr11,#pr11:hover{
-    height: 15vh
-}
-#pr50{
-    position: absolute;
-    bottom: 10vh;
-    left: 72vw;
-}
-/*logo1 is guithub*/
-.logo1{
+.work-text{
+    position: inline;
+    margin: 0;
+    margin-left: 5%;
     position: relative;
-    padding: 2vh;
-    padding-top:0;
+    float: left;
 }
-.logo1 img{
+#work-t2{
+    position: block;
+    font-size: 1.2rem;
+    color: rgb(194, 190, 190) ;
+}
+#work-body{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 75%;
+    margin-left:3%;
+    vertical-align: middle;
+
+}
+.work-desc{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 20vh;
+    margin-top: 7vh;
+}
+.work-img{
     height: 50%;
+    width: 4.5vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1.5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    margin: 22px;
+    border-color: white;
+    border-width: 20px;
 }
-.logo1:hover{
-    color: white;
+
+.work-img-div{
+    position: inline;
+    float: left;
 }
-/*project top logo*/
-.logo2{
-    height:8vh;
-    width: 5.5vw;
-    border: black solid 2px;
-    margin-top: 1vh;
+
+.trn31{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        margin-bottom: 1.5 rem;
+        color: #d1ced5;
+        font-family: 'Varela Round';
+        font-size: 1.5rem;
+        line-height: 6vh;
+        font-weight: 100;
+
+}
+.work-dur{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+    font-size: 1rem; 
+    color: white; 
+    font-family: 'Varela Round';
+    margin-top: 5px;
+    margin-left: 2px;
+}
+@media only screen and  (min-width : 600px) {
+    #experience-m{
+        display: none;
+    }
+}
+ /*Work-experience-mobile*/
+ #experience-m{
+    
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient();
+    padding-top: 5%;
+    padding-bottom: 3%;
+    height: 169vh;
+}
+#wr-layer-m{
+    background-color: #161616!important;
+    width: 95vw;
+    height: 100%;
+    padding: 4%;
+}
+#work-m{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100%;
+    vertical-align: middle;
+}
+#work-title-m{
+    position: relative;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
+    align-content: center;
+    padding-top: 5vh;
+}
+
+.work-text-m{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+.trn3{
+    font-size: 1.7rem;
+    line-height: 5.6vh;
+}
+#work-t2-m{
+    position: block;
+    font-size: 1rem;
+    color: rgba(194, 190, 190, 0.459) ;
+    text-align: center;
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+#work-body-m{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0);
+    height: 75%;
+    vertical-align: middle;
+
+}
+.work-desc-m{
+    background-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 35vh;
+    margin-top: 8vh;
+}
+.work-img-m{
+    height: 50%;
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 1vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    border-color: white;
+    border-width: 20px;
+}
+
+.work-img-div-m{
+    position: relative;
+    position: inline;
+    left: 41% ;
+    width: 20%;
+}
+
+.trn31-m{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        margin-bottom: 1.5 rem;
+        color: #d1ced5;
+        font-family: 'Varela Round';
+        font-size: 1.5rem;
+        line-height: 5vh;
+        font-weight: 100;
+
+}
+.work-dur{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+    font-size: 1rem; 
+    color: white; 
+    font-family: 'Varela Round';
+    margin-top: 5px;
+    margin-left: 2px;
+}
+@media only screen and (max-width: 600px) {
+    #exprince{
+        display: none;
+    }
+    #wr-layer{
+        width: 90vw;
+    }
+    #work-t2{
+        font-size: .8rem;
+    }
+    .work-desc{
+        margin-top: 2vh;
+    }
+    .work-img {
+       margin: 2px;
+    }
+  }
+
+
+/*PROJECTS*/
+@media only screen and  (min-width : 600px) {
+ .pr-img2{
+     display: none;
+ }
+}
+@media only screen and  (max-width : 600px) {
+    .pr-img{
+        display: none;
+    }
+
+}
+
+#projects{
+    height: 160vh;
+}
+#pr-layer{
+    position: relative;
+    margin: auto;
+    height: 100%;
+    top: 0;
     align-self: center;
-    border-radius: 4vh;
-    margin-left: 4.5vw;
+    width: 70%;
+    padding: 4%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
 }
-.logo3{
-    height: 7vh; 
-    width: 7vh; 
-    margin: .33vh;
+#pr-body{
+    height: 92.6%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
 }
-.logo4{
+.pr-instance{
+    width: 100%;
+    height: 25%;
+    background-color: rgba(255, 255, 255, 0.205);
+}
+.pr-img{
+    width: 50%;
+    height: 100%;
+    background-color: hotpink;
+    float: left;
+}
+.pr-img2{
+    width: 100%;
+    height: 20vh;
+    background-color: hotpink;
     
 }
+.pr-txt{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.404);
+    float: left;
+    padding: 6%;
+    padding-right: 3%;
+}
+.pr-txt:hover{
+    background-color: black;
+}
+.trn311{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+        color: #ffffff;
+        font-family: 'Varela Round';
+        font-size: 1.7rem;
+        font-weight: 100;
+        position: inline;
+}
+#pr-t3{
+    opacity: 0;
+        -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+                animation: appear 0.5s ease-out 0.5s 1 normal forwards;
+    margin-top: 4.2%;
+    position: block;
+    font-size: 1rem;
+    color: rgb(175, 171, 171) ;
+}
+
+@media only screen and (max-width: 600px) {
+    #projects{
+        height: 265vh;
+    }
+    #pr-layer{
+        width: 100%;
+    }
+    .pr-instance{
+        height: 50vh;
+    }
+    .pr-txt{
+        float: none;
+        width: 100%;
+        height: 30vh;
+        background-color: rgba(0, 0, 0, 0.808);
+    }
+    .trn311{
+        font-size: 1.4rem;
+        font-weight: 100;
+    }
+}
+.nav-block{
+    position: relative;
+    width: 100vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nv-txt{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+}
+
+#myDIV{
+    position: absolute;
+   
+    color: white;
+    width: 100%;
+    height: 0vh;
+    margin-top: 6vh;
+    
+    transition: height .4s;
+    overflow: hidden;
+}
+  .m-nav:focus + #myDIV{
+    display: initial;
+    height: 25vh;
+  }

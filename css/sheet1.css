@@ -403,6 +403,9 @@ a:hover
           font-size: 1.7rem;
           line-height: 5.6vh;
   }
+  .abt-box{
+    height: 50%;
+  }
   .mb-br{
     display: block;
   }
@@ -516,7 +519,7 @@ h1.contact-box{
     bottom:0;
     height: 2%;
     width: 100%;
-    background-color: hotpink;
+    background-color: #d371c0;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
 }

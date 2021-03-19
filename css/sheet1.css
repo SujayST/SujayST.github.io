@@ -423,7 +423,9 @@ a:hover
     float: left;
     border-radius: 4px;
   }
- 
+  .abt-box-1:hover{
+    background-color: white;
+  }
 
   .mb-br{
     display: block;

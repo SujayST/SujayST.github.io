@@ -354,7 +354,7 @@ a:hover
 
   .abt-bottom{
     position: relative;
-   /* background-color: rgba(255, 255, 255, 0.137);*/
+    /*background-color: rgba(255, 255, 255, 0.137);*/
     bottom: 0;
     height: 20vh;
     width: 70vw;
@@ -367,7 +367,7 @@ a:hover
   .abt-img-15{padding: 15px;}
   .abt-img-20{padding: 20px;}
 
-  .abt-box{
+  .abt-box, .abt-box2{
     position: relative;
     margin: .5%;
     margin-top: 3%;
@@ -379,21 +379,52 @@ a:hover
     float: left;
     border-radius: 4px;
   }
-  .abt-box:hover{
+  .abt-box:hover, .abt-box2:hover{
     background-color: white;
+  }
 
+  .abt-box-1{
+    display: none;
   }
 .mb-br{
   display: none;
 }
 @media only screen and (max-width: 600px) {
+  .abt-box-1{
+    display: block;
+  }
+  #skill-br{
+    display: none;
+  }
+  .abt-box2{
+    display: none;
+  }
   .trn3{
           font-size: 1.7rem;
           line-height: 5.6vh;
   }
-  .abt-box{
-    height: 50%;
+  .abt-box, .abt-box2{
+    height: 70%;
+    margin-top: 2%;
+    margin-bottom: 0;
+    width:16%;
+    margin-left: 3%;
   }
+  .abt-box-1{
+    height: 70%;
+    margin: .5%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+    margin-left: 3%;
+    position: relative;
+    width:16%;
+    background-color: rgba(255, 255, 255, 0.205);
+    text-align: center;
+    float: left;
+    border-radius: 4px;
+  }
+ 
+
   .mb-br{
     display: block;
   }
@@ -413,10 +444,20 @@ a:hover
     height: 10vh;
     margin-top: 1%;
   }
+  .abt-bottom-1{
+    position: relative;
+    /*background-color: rgba(255, 255, 255, 0.137);*/
+    bottom: 0;
+    margin: auto;
+    vertical-align: middle;
+    width: 95vw;
+    height: 10vh;
+    margin-top: 1%;
+  }
   .abt-img-8{padding: 0px;}
   .abt-img-10{padding: 0px;}
   .abt-img-12{padding: 0px;}
-  .abt-img-15{padding: 3.5px;}
+  .abt-img-15{padding: 4px;}
   .abt-img-20{padding: 5px;}
 
 }

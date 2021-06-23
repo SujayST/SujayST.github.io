@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta property="og:title" content="Sujay Tadahal - Personal Portfolio">
+    <meta property="og:image" content="public/img/preview.png">
+    <meta property="og:description" content="software engineer | full stack developer">
+    <meta property="og:url" content="https://sujayst.github.io/">
     <link rel="shortcut icon" href="assets/images/SU-bg.png" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +14,6 @@
     <title>Sujay Tadahal</title>
 </head>
 <body>
-    <div class="intro-page"></div>
     <div class="main-content">
         <main>
             <section id="home" >
@@ -190,8 +192,7 @@
                     </div>
                 </div>
             </section>
-
-            
+    
             <section id="experience-m">
                 <div class="layer" id="wr-layer-m">
                     <div id="work-m">
@@ -318,7 +319,7 @@
                                     <img src="./assets/images/projectimg.jpg" alt="project1">
                                 </div>
                                 <div class="pr-txt">
-                                    <h1 class="trn311">
+                                    <h1 class="trn311" >
                                         libraryManage - web application
                                     </h1>
                                     <h3 id="pr-t3">
@@ -332,17 +333,17 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://github.com/SujayST/Obstacle-Nature-Identifying-Blind-Guiding-Bot-">
+                        <a href="https://github.com/Sujayst/AIDataLab">
                             <div class="pr-instance">
                                 <div class="pr-img">
-                                    <img src="./assets/images/projectimg.jpg" alt="project1">
+                                    <img src="./assets/images/pr3.jpg" alt="project1">
                                 </div>
                                 <div class="pr-img2">
-                                    <img src="./assets/images/projectimg.jpg" alt="project1">
+                                    <img src="./assets/images/pr3.jpg" alt="project1">
                                 </div>
                                 <div class="pr-txt">
-                                    <h1 class="trn311">
-                                        Blind Guiding Bot 
+                                    <h1 class="trn311" style="font-size: 24px;">
+                                        KLE-Samsung Image-Data Collection Framework 
                                     </h1>
                                     <h3 id="pr-t3">
                                         It is a device to facilitate navigational guidance to the visually impaired people. Obstacle nature identification using OpenCV & ML algos
@@ -484,11 +485,10 @@
         </div>
         <div class="lyr" style="top: 70vh; bottom: 24vh;">
             <a href="https://www.instagram.com/sujay_tadahal" class="hvr-grow">
-                <img class="logo" src="./assets/logos/insta.png" alt="Instagram" style="border-radius: .65vw;" >
+                <img class="logo" src="./assets/logos/Instagram.svg" alt="Instagram" style="border-radius: .65vw;" >
             </a>
         </div>
     </div>
-    
     <div class="navbar1" >
         <nav>
             <div  style="padding-left: 0; ">
@@ -496,14 +496,14 @@
             </div>
             <div style="width: 38vw;"></div>
             <div class="nav-btn" >
-                <button type="button" onclick="myFunction()" class="m-nav navbar-toggle">
+                <button id="burger" type="button" onclick="myFunction()" class="m-nav navbar-toggle">
                     <div class="bar1"></div>
                     <div class="bar2"></div>
                     <div class="bar3"></div>
                     
                 </button>
                 <div id="myDIV" >
-                    <div class="nav-block">
+                    <div class="nav-block" style="padding-top: 10px;">
                         <a href = "#home" >
                             <h1 class="nv-txt" >Home</h1>
                         </a>
@@ -573,6 +573,6 @@
             element.classList.toggle("mystyle");
         }
         
-        </script>
+    </script>
 </body>
 </html>

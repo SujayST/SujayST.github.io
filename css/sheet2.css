@@ -290,7 +290,7 @@
     height: 100%;
     background-color: rgba(0, 0, 0, 0.404);
     float: left;
-    padding: 6%;
+    padding: 4%;
     padding-right: 3%;
 }
 .pr-txt:hover{
@@ -337,6 +337,8 @@
         font-weight: 100;
     }
 }
+
+/*nav bar 2.0*/
 .nav-block{
     position: relative;
     width: 100vw;

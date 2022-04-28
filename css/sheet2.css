@@ -18,7 +18,7 @@
     background-image: linear-gradient();
     padding-top: 5%;
     padding-bottom: 3%;
-    height: 135vh;
+    height: 165vh;
 }
 #wr-layer{
     background-color: #161616!important;
@@ -125,7 +125,7 @@
     background-image: linear-gradient();
     padding-top: 5%;
     padding-bottom: 3%;
-    height: 169vh;
+    height: 210vh;
 }
 #wr-layer-m{
     background-color: #161616!important;
@@ -203,7 +203,7 @@
         margin-bottom: 1.5 rem;
         color: #d1ced5;
         font-family: 'Varela Round';
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         line-height: 5vh;
         font-weight: 100;
 
@@ -212,7 +212,7 @@
     opacity: 0;
         -webkit-animation: appear 0.5s ease-out 0.5s 1 normal forwards;
                 animation: appear 0.5s ease-out 0.5s 1 normal forwards;
-    font-size: 1rem; 
+    font-size: .8rem; 
     color: white; 
     font-family: 'Varela Round';
     margin-top: 5px;
@@ -251,12 +251,12 @@
 }
 
 #projects{
-    height: 160vh;
+    height: 200vh;
 }
 #pr-layer{
     position: relative;
     margin: auto;
-    height: 100%;
+    height: 84%;
     top: 0;
     align-self: center;
     width: 70%;
@@ -315,27 +315,41 @@
     font-size: 1rem;
     color: rgb(175, 171, 171) ;
 }
+#fourturtle{
+    background-color: white; 
+    padding: 15px;
+}
 
 @media only screen and (max-width: 600px) {
     #projects{
-        height: 265vh;
+        height: 365vh;
     }
     #pr-layer{
         width: 100%;
     }
     .pr-instance{
-        height: 50vh;
+        height: 60vh;
     }
     .pr-txt{
         float: none;
         width: 100%;
-        height: 30vh;
+        height: 40vh;
         background-color: rgba(0, 0, 0, 0.808);
     }
-    .trn311{
-        font-size: 1.4rem;
-        font-weight: 100;
+    .pr-img2{
+        height: 25vh;
     }
+    .trn311{
+        margin-top: 5px;
+        font-size: 1.2rem;
+        font-weight: 80;
+    }
+    #fourturtle{
+        background-color: white; 
+        padding: 8px;
+    }
+    
+
 }
 
 /*nav bar 2.0*/
